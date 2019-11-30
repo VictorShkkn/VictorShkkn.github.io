@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="12.6998mm" height="12.6998mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1269980 1269980"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="634990" y1="-10" x2="634990" y2="1.26999e+006">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FFC552"/>
+   <stop offset="0.329412" style="stop-opacity:1; stop-color:#F72843"/>
+   <stop offset="0.65098" style="stop-opacity:1; stop-color:#D446A7"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#8070CF"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="634990" cy="634990" r="635000"/>
+  <g id="_409149752">
+   <path class="fil1" d="M462870 305810c-87650,0 -158950,71290 -158950,158930l0 344240c0,87650 71300,158950 158950,158950l344230 0c87650,0 158950,-71300 158950,-158950l0 -344240c0,-87640 -71300,-158930 -158950,-158930l-344230 0zm344230 730620l-344230 0c-125410,0 -227440,-102030 -227440,-227450l0 -344240c0,-125400 102030,-227430 227440,-227430l344230 0c125410,0 227450,102030 227450,227430l0 344240c0,125420 -102040,227450 -227450,227450z"/>
+   <path class="fil1" d="M634990 500760c-75060,0 -136120,61060 -136120,136120 0,75050 61060,136110 136120,136110 75050,0 136120,-61060 136120,-136110 0,-75060 -61070,-136120 -136120,-136120zm0 340720c-112820,0 -204610,-91780 -204610,-204600 0,-112830 91790,-204620 204610,-204620 112820,0 204610,91790 204610,204620 0,112820 -91790,204600 -204610,204600z"/>
+   <path class="fil1" d="M894660 409980c0,27170 -22020,49180 -49180,49180 -27150,0 -49180,-22010 -49180,-49180 0,-27150 22030,-49180 49180,-49180 27160,0 49180,22030 49180,49180z"/>
+  </g>
+ </g>
+</svg>
