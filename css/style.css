@@ -141,8 +141,13 @@ h1, h2, h3, h4, h5, p {
 }
 
 #portfolio {
+    margin-top: -100px;
     position: absolute;
-    top: -65px;
+}
+
+.margin-for-portfolio {
+    height: 1px;
+    width: 1px;
 }
 
 /* screen works */
@@ -494,10 +499,6 @@ h1, h2, h3, h4, h5, p {
 
     .top-nav__link-contacts {
         margin-top: 12px;
-    }
-
-    #portfolio {
-        top: -90px;
     }
 
     .main-screen {
