@@ -13,6 +13,10 @@ body {
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
 }
 
+.body-lock-scrolling {
+    overflow: hidden;
+}
+
 h1, h2, h3, h4, h5, p {
     margin: 0;
     padding: 0;
@@ -311,11 +315,16 @@ h1, h2, h3, h4, h5, p {
 .skills__arrow {
     transform: rotate(0deg);
     transition: transform 0.5s;
+    width: 36px;
 }
 
 .skills__arrow-acive {
     transform: rotate(180deg);
     transition: transform 0.5s;
+}
+
+.work__img {
+    width: 168px;
 }
 
 .text_blue {
@@ -518,11 +527,15 @@ h1, h2, h3, h4, h5, p {
         margin: 0 18px 0 18px;
     }
 
-    .work__conteiner:hover,
+    
     .container-box_good:hover,
     .container-box {
         border-radius: 60px;
         transition: none;
+    }
+
+    .work__conteiner:hover {
+        border-radius: 40px;
     }
 
     /* screen skills */
@@ -566,7 +579,6 @@ h1, h2, h3, h4, h5, p {
     .work__img {
         width: 59px;
         height: 59px;
-        
     }
 
     .work__title {
