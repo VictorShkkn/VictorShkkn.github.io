@@ -1,10 +1,12 @@
+
 let slide = document.querySelectorAll(".slide-data");
 let sliderContainer = document.querySelector(".modal-container");
 let dataNumAttribute = 1;
 let numberSlide = 4;
 let closeButton = document.querySelector(".close-button");
 let videoMain = document.querySelectorAll(".video-content");
-let n = 0; //coefficient n == 1 - play video, n == 2 payse video 
+let n = 0; //coefficient n == 1 - play video, n == 2 payse video
+
 
 const swiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -44,6 +46,7 @@ closeButton.addEventListener("click", hiddenGallery);
 
 function showSlider() {
   sliderContainer.classList.add("modal-container_active");
+  body.classList.toggle('body-lock-scrolling');
 }
 
 function showSlide() {
@@ -54,6 +57,7 @@ function showSlide() {
 function hiddenGallery() {
   sliderContainer.classList.remove("modal-container_active");
   pauseVideo();
+  body.classList.toggle('body-lock-scrolling');
 }
 
 swiper.on('activeIndexChange', function () {
@@ -64,7 +68,6 @@ swiper.on('activeIndexChange', function () {
 function pauseVideo() {
   for (i of videoMain) {
     i.pause();
-    console.log(123)
   }
 }
 
@@ -76,7 +79,6 @@ function playPauseVideoTouch() {
   }
 
   if (n == 2) {
-    console.log("222")
     pauseVideo();
     n = 0;
   }
