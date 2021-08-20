@@ -223,8 +223,13 @@ h1, h2, h3, h4, h5, p {
  color: #ECF4FA;
 }
 
+.work__img {
+    width: 168px;
+}
+
 .work__img-presentation {
     margin-top: 25px;
+    width: 179px;
 }
 
 .work__img-social {
@@ -321,10 +326,6 @@ h1, h2, h3, h4, h5, p {
 .skills__arrow-acive {
     transform: rotate(180deg);
     transition: transform 0.5s;
-}
-
-.work__img {
-    width: 168px;
 }
 
 .text_blue {
