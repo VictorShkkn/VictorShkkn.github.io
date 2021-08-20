@@ -74,11 +74,13 @@ $(document).ready(function () {
 
 	function showSlickSlider() {
 		document.querySelector(".fixed-overlay").style.visibility = "visible";
+		document.querySelector('body').classList.toggle('lock-scrolling');
 	}
 
 	function hideSlickSlider() {
 		document.querySelector(".fixed-overlay").style.visibility = "hidden";
 		stopScroll();
+		document.querySelector('body').classList.toggle('lock-scrolling');
 	}
 
 	$('.slider').on('setPosition', function(slick) {
